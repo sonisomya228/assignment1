@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800;900&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif; 
+    color: aliceblue;   
+}
+body{
+    background-color: rgb(173, 200, 255);
+}
+
+.navbar{
+    color: rgb(22, 140, 243);
+    margin: 60px 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    justify-content: space-around;
+    color: rgb(22, 140, 243);
+}
+
+.navbar ul :hover{
+    color: blueviolet;
+    font-weight: 900;
+    background-color: bisque;
+    padding: 0px 10px;
+    border-radius: 25px;
+}
+
+.navbar ul li span:hover{
+    animation: linear 5 3 0.2 1;
+}
+
+.home-content{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+
+}
+
+.home-pg{
+    text-align: center;
+    margin: auto;
+    height: 80;
+    font-size: 20px;
+}
+
+.home-content img{
+    text-align: center;
+    margin: auto;
+    height: 25em;
+    width: 25em;
+    border-radius: 50%;
+}
+
+.skills{
+    text-align: center;
+    margin: 45px 0px;
+}
+
+.skills ul{
+    display: flex;
+    gap: 25px;
+    margin-top: 85px;
+    justify-content: space-around;
+    
+}
+
+.skills ul li img{
+    height: 85px;
+    width: 85px;
+    
+}
+
+.Experience{
+    text-align: center;
+}
+.exp>p{
+    font-size: 20px;
+}
+
+.exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.exp-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(135, 135, 135);
+    text-align: center;
+    height: 15em;
+    margin: 25px 8em ;
+    color:black;
+    border-radius: 25px 25px;
+
+}
+
+.exp-div-1{
+    margin: auto;
+}
+.exp-1 img{
+    height: auto;
+    width: 20em;
+    border-radius: 25px 25px;
+}
+.exp-2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(135, 135, 135);
+    text-align: center;
+    height: 15em;
+    margin: 25px 8em ;
+    color:black;
+    border-radius: 25px 25px;
+
+}
+.exp-2 img{
+    background-color: rgba(117, 117, 117, 0.614);
+    height: auto;
+    width: 23em;
+    border-radius: 25px 25px;
+
+}
+
+.exp-div-2{
+    margin: auto;
+}
+
+.contact-Me{
+    text-align: center;
+    height: 100vh;
+}
+.contact-Me h1{
+    margin-bottom: 25px ;
+}
+
+.container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding-top: 25px;
+    background-color: rgb(130, 128, 128);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    /* gap: 15px; */
+}
+
+.txt{
+    margin: 20px;
+}
+
+.txt input{
+    margin: auto;
+    margin-top:10px;
+    border-radius: 15px;
+    height: 100px;
+    width: 60%;
+    background-color: antiquewhite;
+    padding: 15px;
+    font-size: 35px;
+    color: black;
+
+}
+
+
+.last{
+    height: 85px;
+    width: 35em;
+    border-radius: 25px;
+    padding: 30px;
+    background-color: antiquewhite;
+    font-size: 35px;
+    width: 60%;
+    height: 169px;
+    color: black;
+}
+
+#sbtn{
+    background-color: aqua;
+    color: black;
+    border-radius: 25px;
+    padding:8px 30px;
+    margin: auto;
+    margin-bottom: 45px;
+    height: 69px;
+    min-width: 75px;
+    font-size: 30px;
+}
+
+#sbtn:hover{
+    background-color: rgb(0, 162, 255);
+
+}
+
+.bttn{
+    margin-top: 18px;
+}
+
+.rbtn{
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    background-color: rgb(0, 162, 255);
+    
+}
+.cbtn{
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    background-color: rgb(0, 255, 247);
+}
+
+.rbtn:hover{
+    background-color: rgb(231, 250, 106);
+}
+
+.cbtn:hover{
+    background-color: rgb(231, 250, 106);
+}
+
+.special{
+    background-color: rgb(241, 241, 177);
+    margin: auto;
+    padding: 20px;
+    color: black;
+    width: fit-content;
+    border-radius: 25px;
+}
+
+.footer{
+    height: 45px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: bisque;
+
+  }
+.card-content p{
+    color: black;
+  }
+
+.card img{
+    max-width: 250px;
+  }
